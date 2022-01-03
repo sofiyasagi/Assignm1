@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: whitesmoke;
+  font-family: sans-serif, Helvetica;
+}
+.image {
+  width: 40%;
+  float: right;
+}
+.image img {
+  width: auto;
+  height: auto;
+  position: fixed;
+}
+.information {
+  width: 60%
+  height: 100%;
+  float: left;
+  padding: 1 30px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.information h1 {
+  margin-left: 15px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.about-me {
+  margin-left: 15px;
+  margin-top: 8px;
+}
+.quote {
+  margin-left: 15px;
+  font-style: italic;
+}
+.me {
+  margin-left: 15px;
+}
+.social-media img {
+  height: 30px;
+  margin-right: 15px;
+}
+.social-media {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.hey {
+  margin-left: 25px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.insp img {
+  width: 65%;
+  height: 65%;
+  margin: 3px;
+}
+.insp {
+  display: inline-block;
+  width: 15%;
+  padding: 20px 10px;
+  margin: 2%;
+  text-align: center;
+  box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+}
+.insp small {
+  padding-top: 10px;
+  display: block;
+}
+.mood img {
+  width: 10%;
+  height: 10%;
+  padding: 4px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.input {
+  width: 45%;
+  border: 0;
+  outline: none !important;
+  padding: 5px;
+  margin: 1%;
+  display: inline-block;
+}
+.text-area textarea {
+  width: 45%;
+  border: 0;
+  outline: none !important;
+  padding: 5px;
+  margin: 1%;
+  background-color: white;
+}
+.submit-button {
+  border: 0;
+  outline: none !important;
+  padding: 5px 10px;
+  margin: 1%;
+  background-color: lightgray;
+  cursor: pointer;
+  color: black;
+}
